@@ -22,3 +22,6 @@ Help page has eveything a new user would need to know about the program, it is l
 
 
 *For V1.0.1, which features a Progressbar, but the loading screen's behaviour is a bit odd during refreshes. Check it out if you were curious and test with whatever you feel is better.
+
+
+EDIT (5/7/2019): The GDAX API is no longer working as intended, most likely due to the API going fully deprecated, and therefore, the program will crash during the first data fetch.
