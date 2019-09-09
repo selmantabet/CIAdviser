@@ -25,3 +25,5 @@ Help page has eveything a new user would need to know about the program, it is l
 
 
 EDIT (5/7/2019): The GDAX API is no longer working as intended, most likely due to the API going fully deprecated, and therefore, the program will crash during the first data fetch.
+
+EDIT (9/9/2019): In case you still want to see the program in action, here is a 4-minute video I made back when I was actively working on it: https://www.youtube.com/watch?v=FJS-oCTe4h4
