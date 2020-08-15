@@ -250,7 +250,7 @@ class Mainw(Tk): #Main Window
         
         print "Receiving BTC data..."
         
-        self.bdata=self.req.get_product_historic_rates("BTC-USD",start=(datetime.datetime.utcnow()-datetime.timedelta(days=7)).isoformat(),end=datetime.datetime.utcnow().isoformat(),granularity="300") #Maximum granularity for this specific time-frame, the server does not allow requests that result in anything more than ~400 data points.
+        self.bdata=self.req.get_product_historic_rates("BTC-USD",start=(datetime.datetime.utcnow()-datetime.timedelta(days=7)).isoformat(),end=datetime.datetime.utcnow().isoformat(),granularity="3600") #Maximum granularity for this specific time-frame, the server does not allow requests that result in anything more than ~400 data points.
         print self.bdata
         self.progress["value"]=12
         self.update_idletasks()
@@ -296,7 +296,7 @@ class Mainw(Tk): #Main Window
         
         print "Receiving ETH data..."
         
-        self.edata=self.req.get_product_historic_rates("ETH-USD",start=(datetime.datetime.utcnow()-datetime.timedelta(days=7)).isoformat(),end=datetime.datetime.utcnow().isoformat(),granularity="300") #Granularity is about 400 at 24 hours
+        self.edata=self.req.get_product_historic_rates("ETH-USD",start=(datetime.datetime.utcnow()-datetime.timedelta(days=7)).isoformat(),end=datetime.datetime.utcnow().isoformat(),granularity="3600") #Granularity is about 400 at 24 hours
 
         self.progress["value"]=36
         self.update_idletasks()
@@ -334,7 +334,7 @@ class Mainw(Tk): #Main Window
         
         print "Receiving LTC data..."
 
-        self.ldata=self.req.get_product_historic_rates("LTC-USD",start=(datetime.datetime.utcnow()-datetime.timedelta(days=7)).isoformat(),end=datetime.datetime.utcnow().isoformat(),granularity="300") #Granularity is about 400 at 24 hours
+        self.ldata=self.req.get_product_historic_rates("LTC-USD",start=(datetime.datetime.utcnow()-datetime.timedelta(days=7)).isoformat(),end=datetime.datetime.utcnow().isoformat(),granularity="3600") #Granularity is about 400 at 24 hours
 
         self.progress["value"]=54
         self.update_idletasks()

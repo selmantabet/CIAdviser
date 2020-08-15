@@ -99,5 +99,5 @@ ENV/
 
 # mypy
 .mypy_cache/
-previous_versions/mrrobot.txt
 .vscode/settings.json
+test.txt
