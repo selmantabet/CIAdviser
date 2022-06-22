@@ -8,7 +8,7 @@ cycler==0.10.0
 gdax==1.0.6
 kiwisolver==1.1.0
 matplotlib==2.2.5
-numpy==1.16.6
+numpy==1.22.0
 pycparser==2.20
 pyparsing==2.4.7
 python-dateutil==2.8.1
